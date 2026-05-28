@@ -1,0 +1,11 @@
+t c a d r a c t
+p p p p . p p p
+. . . . . . . .
+. . . . p . . .
+. . . . P . . .
+. . . . . . . .
+P P P P . P P P
+T C A D R A C T
+BIANCO
+-1 -1
+false false false false false false
