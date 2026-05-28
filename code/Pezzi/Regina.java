@@ -1,6 +1,6 @@
-package Pezzi;
+package code.Pezzi;
 
-import Scuola.Progettini.Scacchi.Util.*;
+import code.Util.*;
 
 /**
  * Rappresenta la regina e calcola le sue mosse in linea retta e diagonale.

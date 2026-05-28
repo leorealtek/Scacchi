@@ -1,6 +1,6 @@
-package Pezzi;
+package code.Pezzi;
 
-import Scuola.Progettini.Scacchi.Util.*;
+import code.Util.*;
 
 /**
  * Rappresenta l'alfiere e calcola le sue mosse in diagonale.

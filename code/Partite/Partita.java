@@ -1,8 +1,8 @@
 package code.Partite;
 
-import code.Scacchi.Exception.*;
-import code.Scacchi.Pezzi.*;
-import code.Scacchi.Util.*;
+import code.Exception.*;
+import code.Pezzi.*;
+import code.Util.*;
 
 import java.io.*;
 import java.util.Scanner;

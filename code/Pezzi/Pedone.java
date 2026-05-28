@@ -1,6 +1,6 @@
-package Pezzi;
+package code.Pezzi;
 
-import Scuola.Progettini.Scacchi.Util.*;
+import code.Util.*;
 
 /**
  * Rappresenta il pedone, includendo prima mossa, avanzamento doppio e stato utile per l'en passant.

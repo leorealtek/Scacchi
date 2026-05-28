@@ -1,6 +1,6 @@
-package Pezzi;
+package code.Pezzi;
 
-import Scuola.Progettini.Scacchi.Util.*;
+import code.Util.*;
 
 /**
  * Rappresenta la torre e conserva lo stato necessario per stabilire se può arroccare.

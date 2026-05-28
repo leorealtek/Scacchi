@@ -1,7 +1,7 @@
 package code.Grafica;
 
-import code.Scacchi.Main;
-import code.Scacchi.Partite.Partita;
+import code.Main;
+import code.Partite.Partita;
 
 import java.awt.*;
 import java.awt.event.*;

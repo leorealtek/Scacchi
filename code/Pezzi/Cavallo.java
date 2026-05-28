@@ -1,6 +1,6 @@
-package Pezzi;
+package code.Pezzi;
 
-import Scuola.Progettini.Scacchi.Util.*;
+import code.Util.*;
 
 /**
  * Rappresenta il cavallo e calcola le sue mosse a L.

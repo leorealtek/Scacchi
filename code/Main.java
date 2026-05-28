@@ -4,8 +4,8 @@ import java.io.*;
 import java.util.ArrayList;
 import javax.swing.*;
 
-import code.Scacchi.Grafica.*;
-import code.Scacchi.Util.Bot;
+import code.Grafica.*;
+import code.Util.Bot;
 
 /**
  * Punto di avvio del programma. Mostra i menu iniziali e apre la modalità scelta dall'utente.
