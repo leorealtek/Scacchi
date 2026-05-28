@@ -21,8 +21,8 @@ public class Partita extends PartitaAstratta {
     private boolean salvataggioRealeEsistente = false;
     private int primaMossaTemporaneaNonSalvata = 0;
 
-    private static final String CARTELLA_PARTITE = "Scuola/Progettini/Scacchi/FilePartite";
-    private static final String CARTELLA_TEMPORANEI = "Scuola/Progettini/Scacchi/FilePartite/FileTemporanei";
+    private static final String CARTELLA_PARTITE = "code/FilePartite";
+    private static final String CARTELLA_TEMPORANEI = "code/FilePartite/FileTemporanei";
 
     /**
      * Crea una nuova partita standard e salva subito la posizione iniziale nella cronologia temporanea.

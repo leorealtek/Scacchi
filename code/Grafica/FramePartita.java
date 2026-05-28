@@ -271,7 +271,7 @@ public class FramePartita extends FrameScacchiAstratto {
                 "Salvataggio partita",
                 JOptionPane.DEFAULT_OPTION,
                 JOptionPane.QUESTION_MESSAGE,
-                new ImageIcon("Scuola/Progettini/Scacchi/Immagini/Scelta.jpg"),
+                new ImageIcon("code/Immagini/Pedone.png"),
                 scelte,
                 scelte[0]
             );

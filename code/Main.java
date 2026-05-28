@@ -42,7 +42,7 @@ public class Main {
         int sceltaBot = mostraDialogPerScelta(
             "Modalità partita",
             "Vuoi giocare contro il bot?",
-            "Scuola/Progettini/Scacchi/Immagini/Pedone.png",
+            "code/Immagini/Pedone.png",
             new String[]{"2 giocatori", "Contro bot"},
             "2 giocatori"
         );
@@ -62,7 +62,7 @@ public class Main {
         int sceltaBot = mostraDialogPerScelta(
             "Difficoltà bot",
             "Imposta difficoltà bot",
-            "Scuola/Progettini/Scacchi/Immagini/Pedone.png",
+            "code/Immagini/Pedone.png",
             new String[]{"Facile", "Media", "Difficile"},
             "Media"
         );
@@ -129,7 +129,7 @@ public class Main {
         int sceltaIniziale = mostraDialogPerScelta(
                                 "Menù", 
                                 "Scegli che modalita vuoi giocare",
-                                "Scuola/Progettini/Scacchi/Immagini/Pedone.png",
+                                "code/Immagini/Pedone.png",
                                 new String[]{"Partita", "Esercizio"},
                                 "Partita"
                             );
@@ -138,7 +138,7 @@ public class Main {
             int sceltaPartita = mostraDialogPerScelta(
                                     "Partita", 
                                     "                    Crea partita",
-                                    "Scuola/Progettini/Scacchi/Immagini/Pedone.png",
+                                    "code/Immagini/Pedone.png",
                                     new String[]{"Crea nuova partita", "Carica partita da file"},
                                     "Crea nuova partita"
                                 );
@@ -155,7 +155,7 @@ public class Main {
             }
 
             else if (sceltaPartita == 1) {
-                ArrayList<File> files = trovaFile("Scuola/Progettini/Scacchi/FilePartite");
+                ArrayList<File> files = trovaFile("code/FilePartite");
 
                 String[] nomiFile = new String[files.size()];
 
@@ -168,7 +168,7 @@ public class Main {
                 int sceltaFile = mostraDialogPerScelta(
                                     "Scegli partita", 
                                     tendinaPartite, 
-                                    "Scuola/Progettini/Scacchi/Immagini/File.png",
+                                    "code/Immagini/File.png",
                                     null,
                                     null
                                 );
@@ -189,7 +189,7 @@ public class Main {
         }
 
         if (sceltaIniziale == 1) {
-            ArrayList<File> files = trovaFile("Scuola/Progettini/Scacchi/FileEsercizi");
+            ArrayList<File> files = trovaFile("code/FileEsercizi");
 
             String[] scelteFile = new String[files.size()];
 
@@ -202,7 +202,7 @@ public class Main {
             int sceltaFile = mostraDialogPerScelta(
                                 "Scegli partita", 
                                 tendinaEsercizi, 
-                                "Scuola/Progettini/Scacchi/Immagini/File.png",
+                                "code/Immagini/File.png",
                                 null,
                                 null
                             );
